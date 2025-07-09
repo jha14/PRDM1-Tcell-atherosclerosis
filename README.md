@@ -11,7 +11,11 @@ This repository contains the code and resources necessary to reproduce the main 
 ```
 
 - **data/**: Processed data used in the analyses can be accessed via Zenodo:  
-  🔗 [https://doi.org/10.5281/zenodo.15709332](https://doi.org/10.5281/zenodo.15709332)
+  🔗 [https://doi.org/10.5281/zenodo.15709332
+        
+        ](https://doi.org/10.5281/zenodo.15709332
+        
+        )
 - **codes/**: Contains ordered R scripts (e.g., `00_functions.R`, `01_wgcna.R`, etc.) for reproducing figures and results presented in the manuscript.
 
 ## ⚙️ Environment
@@ -21,7 +25,7 @@ The scripts were developed and tested in the following environment:
 ```
 | Software / Package    | Version   |
 |-----------------------|-----------|
-| R                     | ≥ 4.4.0   |
+| R                     | ≥ 3.5.1   |
 | WGCNA                 | 1.73      |
 | bnlearn               | 4.5       |
 | clusterProfiler       | 3.12.0    |

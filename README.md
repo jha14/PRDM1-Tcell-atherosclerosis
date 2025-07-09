@@ -4,57 +4,54 @@ This repository contains the code and resources necessary to reproduce the main 
 **"Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation."**
 
 ## 🗂 Repository structure
-├── data/ # Processed datasets (access via Zenodo)
-├── codes/ # Numbered R scripts used in the analysis
-└── figures/ # Output plots (optional, if applicable)
-
+```
+├── data/     # Processed datasets (access via Zenodo)
+├── codes/    # Numbered R scripts used in the analysis
+└── results/  # Output plots
+```
 
 - **data/**: Processed data used in the analyses can be accessed via Zenodo:  
   🔗 [https://doi.org/10.5281/zenodo.15709332](https://doi.org/10.5281/zenodo.15709332)
-- **codes/**: Contains ordered R scripts (e.g., `01_preprocessing.R`, `02_analysis.R`, etc.) for reproducing figures and results presented in the manuscript.
+- **codes/**: Contains ordered R scripts (e.g., `00_functions.R`, `01_wgcna.R`, etc.) for reproducing figures and results presented in the manuscript.
 
 ## ⚙️ Environment
 
 The scripts were developed and tested in the following environment:
 
-- R version: `>= 4.2.0`
-- Required R packages:
-  - `Seurat`
-  - `dplyr`
-  - `ggplot2`
-  - `clusterProfiler`
-  - `WGCNA`
-  - `ComplexHeatmap`
-  - *(add any other packages used)*
-
+```
+| Software / Package    | Version   |
+|-----------------------|-----------|
+| R                     | ≥ 4.4.0   |
+| WGCNA                 | 1.73      |
+| bnlearn               | 4.5       |
+| clusterProfiler       | 3.12.0    |
+| GOSemSim              | 2.20.0    |
+| GENIE3                | 1.6.0     |
+| minet                 | 3.42.0    |
+| Seurat                | 5.1.0     |
+```
 
 ## ▶️ How to run
 
 1. Clone this repository:
+
    ```bash
-   git clone https://github.com/your-username/PRDM1-Tcell-atherosclerosis.git
-   cd PRDM1-Tcell-atherosclerosis
+   git clone https://github.com/your-username/PRDM1_AS_T_cell.git
+   cd PRDM1_AS_T_cell
 
-2. Download the processed data from Zenodo and place it in the data/ directory.
-3. Run the scripts sequentially from the codes/ folder:
+3. Download the processed data from Zenodo and place it in the data/ directory.
+4. Run the scripts sequentially from the codes/ folder:
 
-  ```bash
-  source("codes/01_preprocessing.R")
-  source("codes/02_analysis.R")
-  ...
+   ```bash
+   source("codes/00_functions.R")
+   source("codes/01_wgcna.R")
+   ...
 
-4. Output figures and tables will be saved to the working directory or subfolders as specified.
+6. Output figures and tables will be saved to the **results/** folder as specified.
 
-📄 Citation
+## 📄 Citation
 If you use this code or data in your research, please cite the original paper:
 
-Han J, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Genome Medicine. [DOI pending]
+Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Genome Medicine. [DOI pending]
 
-BibTeX:
-@article{han2025prdm1,
-  title={Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation},
-  author={Han, Jin and others},
-  journal={Genome Medicine},
-  year={2025},
-  doi={10.1186/s13073-025-00xxx}
-}
+(*Han Jin and Sanne L. Maas contributed equally to this work*)

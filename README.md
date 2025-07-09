@@ -47,7 +47,7 @@ The scripts were developed and tested in the following environment:
    source("codes/01_wgcna.R")
    ...
 
-6. Output figures and tables will be saved to the **results/** folder as specified.
+6. Output figures and tables will be saved to the results/ folder as specified.
 
 ## 📄 Citation
 If you use this code or data in your research, please cite the original paper:

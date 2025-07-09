@@ -21,7 +21,7 @@ The scripts were developed and tested in the following environment:
 ```
 | Software / Package    | Version   |
 |-----------------------|-----------|
-| R                     | ≥ 3.5.1   |
+| R                     | ≥ 3.6.0   |
 | WGCNA                 | 1.73      |
 | bnlearn               | 4.5       |
 | clusterProfiler       | 3.12.0    |

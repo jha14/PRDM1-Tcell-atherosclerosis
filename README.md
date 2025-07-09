@@ -36,8 +36,8 @@ The scripts were developed and tested in the following environment:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/jha14/PRDM1-Tcell-atherosclerosis.git
-   cd PRDM1-Tcell-atherosclerosis
+   git clone https://github.com/jha14/PRDM1_Tcell_atherosclerosis.git
+   cd PRDM1_Tcell_atherosclerosis
 
 3. Download the processed data from Zenodo and place it in the data/ directory.
 4. Run the scripts sequentially from the codes/ folder:

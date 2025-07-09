@@ -9,13 +9,9 @@ This repository contains the code and resources necessary to reproduce the main 
 ├── codes/    # Numbered R scripts used in the analysis
 └── results/  # Output plots
 ```
-
 - **data/**: Processed data used in the analyses can be accessed via Zenodo:  
-  🔗 [https://doi.org/10.5281/zenodo.15709332
-        
-        ](https://doi.org/10.5281/zenodo.15709332
-        
-        )
+  🔗 [https://doi.org/10.5281/zenodo.15709332](https://doi.org/10.5281/zenodo.15709332)
+  
 - **codes/**: Contains ordered R scripts (e.g., `00_functions.R`, `01_wgcna.R`, etc.) for reproducing figures and results presented in the manuscript.
 
 ## ⚙️ Environment

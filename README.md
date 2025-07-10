@@ -6,9 +6,9 @@ This repository contains the code and resources necessary to reproduce the main 
 ## 🗂 Repository structure
 ```bash
 .
-├── data/     # Processed datasets (access via Zenodo)
-├── codes/    # Numbered R scripts used in the analysis
-├── results/  # Output plots
+├── data/        # Processed datasets (access via Zenodo)
+├── codes/       # Numbered R scripts used in the analysis
+├── results/     # Output plots
 ├── LICENSE
 └── README.md
 ```

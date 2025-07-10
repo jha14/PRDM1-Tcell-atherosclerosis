@@ -8,7 +8,9 @@ This repository contains the code and resources necessary to reproduce the main 
 .
 ├── data/     # Processed datasets (access via Zenodo)
 ├── codes/    # Numbered R scripts used in the analysis
-└── results/  # Output plots
+├── results/  # Output plots
+├── LICENSE
+└── README.md
 ```
 - **data/**: Processed data used in the analyses can be accessed via Zenodo:  
   🔗 [https://doi.org/10.5281/zenodo.15709332](https://doi.org/10.5281/zenodo.15709332)

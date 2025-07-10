@@ -1,6 +1,6 @@
 # 🫀 Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation
 
-This repository contains the code and resources necessary to reproduce the main findings of the paper:  
+This repository contains the code and resources necessary to reproduce the main findings of the manuscript:  
 **"Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation"**
 
 ## 🗂 Repository structure
@@ -15,7 +15,7 @@ This repository contains the code and resources necessary to reproduce the main 
 - **data/**: Processed data used in the analyses can be accessed via Zenodo:  
   🔗 [https://doi.org/10.5281/zenodo.15852128](https://doi.org/10.5281/zenodo.15852128)
   
-- **codes/**: Contains ordered R scripts (e.g., `00_functions.R`, `01_wgcna.R`, etc.) for reproducing figures and results presented in the paper.
+- **codes/**: Contains ordered R scripts (e.g., `00_functions.R`, `01_wgcna.R`, etc.) for reproducing figures and results presented in the manuscript.
 
 ## ⚙️ Environment
 
@@ -53,7 +53,7 @@ The scripts were developed and tested in the following environment:
 6. Output figures and tables will be saved to the results/ folder as specified.
 
 ## 📄 Citation
-If you use this code or data in your research, please cite the original paper:
+The manuscript is currently under review.
 
 Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Under Review. [DOI pending]
 

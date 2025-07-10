@@ -55,6 +55,6 @@ The scripts were developed and tested in the following environment:
 ## 📄 Citation
 If you use this code or data in your research, please cite the original paper:
 
-Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Genome Medicine. [DOI pending]
+Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Under Review. [DOI pending]
 
 (*Han Jin and Sanne L. Maas contributed equally to this work*)

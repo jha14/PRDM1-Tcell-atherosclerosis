@@ -4,7 +4,8 @@ This repository contains the code and resources necessary to reproduce the main 
 **"Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation."**
 
 ## 🗂 Repository structure
-```
+```bash
+.
 ├── data/     # Processed datasets (access via Zenodo)
 ├── codes/    # Numbered R scripts used in the analysis
 └── results/  # Output plots

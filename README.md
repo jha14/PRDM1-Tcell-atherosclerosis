@@ -1,4 +1,4 @@
-# Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation
+# 🧬🫀 Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation
 
 This repository contains the code and resources necessary to reproduce the main findings of the paper:  
 **"Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation"**

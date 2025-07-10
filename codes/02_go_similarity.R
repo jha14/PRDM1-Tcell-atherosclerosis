@@ -1,7 +1,6 @@
 pacman::p_load(tidyverse, clusterProfiler, org.Hs.eg.db, GOSemSim, enrichplot, viridis, ggpubr, VennDiagram, ggrepel)
 
 
-
 # GSOA -----------------------------------------------------------
 
 GO_result_SP <- list()
@@ -164,7 +163,7 @@ ces_UP <- sort(ces_UP, decreasing = T)
 go_sim_top10 <- go_sim[names(ces_SP)[1:10], names(ces_UP)[1:10]]
 
 
-go_sim_top10 <- readRDS("data/go_sim_top10.rds")
+go_sim_top10 <- readRDS("data/GO_sim_top10.rds")
 pheatmap::pheatmap(t(go_sim_top10), cluster_rows = F, cluster_cols = F, color = viridis(100), cellwidth = 15, cellheight = 15,
                    border_color = F, angle_col = 270, filename = "results/go_sim_top10.pdf", width = 3.5, height = 3)
 
@@ -262,6 +261,5 @@ pheatmap::pheatmap(jaccard_index, cluster_rows = F, cluster_cols = F, color = vi
 
 writexl::write_xlsx(jaccard_index %>% as.data.frame, path = "jaccard_index.xlsx")
 writexl::write_xlsx(hyper_padj %>% as.data.frame, path = "hyper_padj.xlsx")
-
 
 

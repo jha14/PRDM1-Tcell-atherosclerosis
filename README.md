@@ -53,8 +53,8 @@ The scripts were developed and tested in the following environment:
 6. Output figures and tables will be saved to the results/ folder as specified.
 
 ## 📄 Citation
-The manuscript is currently under review.
+The manuscript has been accepted for publication in Genome Medicine and is currently in press.
 
-Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. Under Review. [DOI pending]
+Han Jin, Sanne L. Maas, et al. (2025). Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation. [DOI pending]
 
 (*Han Jin and Sanne L. Maas contributed equally to this work*)
